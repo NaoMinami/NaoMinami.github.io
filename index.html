@@ -35,7 +35,7 @@
         },
         created: function() {
             var self = this;
-            $.getJSON('https://h2o-space.com/htmlbook/images.php', function(data) {
+            $.getJSON('images.json', function(data) {
                 self.Photos = data
             });
         }
